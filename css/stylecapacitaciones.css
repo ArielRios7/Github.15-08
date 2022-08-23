@@ -4,24 +4,19 @@
     box-sizing: border-box;
 }
 
-.contenedor{
-    background: rgb(1,22,39);
-    background: linear-gradient(180deg, rgba(1,22,39,1) 0%, rgba(1,22,39,1) 97%, rgba(255,255,255,1) 100%);
+
+
+.body1 {
+    background-color: cornflowerblue;
+
 }
 
-header{
+header {
     background-color: #682938;
 
     display: flex;
     justify-content: space-around;
 }
-
-main{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    grid-area: main;
-}
-
 
 
 
@@ -132,5 +127,4 @@ padding-top: 20px ;
 .section3{
     grid-area: section1;
 }
-
 
