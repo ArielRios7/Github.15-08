@@ -6,13 +6,6 @@
 
 
 
-body {
-    background: rgb(1,22,39);
-    background: linear-gradient(180deg, rgba(1,22,39,1) 0%, rgba(1,22,39,1) 65%, rgba(255,255,255,1) 100%);
-    background-size: 100%;
-    margin: 0;
-}
-
 form {
     width: 450px;
     margin: auto;
@@ -55,81 +48,3 @@ border: black;
 border-style:outset;
 }
 
-/*--------------------- FOOTER -----------------------*/
-
-.pie-pagina{
-    width: 100%;
-
-}
-
-.pie-pagina .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
-}
-
-.pie-pagina .grupo1 .box figure{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.h2{
-    width: 250px;
-}
-
-.pie-pagina .grupo-1 .box h1{
-    color:aliceblue;
-    margin-bottom: 25px;
-    font-size: 20px;
-
-}
-
-.lorem {
-    color: aliceblue;
-    margin-bottom: 10px;
-}
-
-.pie-pagina .grupo-1 .box .red-social a{
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color:aliceblue;
-    margin-right: 10px;
-    text-align: center;
-    background-color: rgb(83, 85, 84);
-    transition: all 300ms ease;
-    border-radius: 7px;
-}
-
-.pie-pagina .grupo-1 .box .red-social a:hover{
-color: #8D3B72;
-}
-
-
-.pie-pagina .grupo-2{
-    padding: 15px 10px;
-    text-align: center;
-    color: rgb(2, 27, 49);
-}
-
-@media (max-width: 480px){
-    form {
-        width: 100%;
-    }
-
-    .pie-pagina .grupo-1{
-        width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
-    }
-}

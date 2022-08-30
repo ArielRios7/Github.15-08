@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box; }
 
-@Import "utilities/variables"
+/* variables --------------------*/
+.main-class .section1, .main-class .section2, .main-class .section3 {
+  grid-area: section1;
+  margin: 10px; }
 
 /* -------------  -INDEX-   ------------------------ */
-
-body{
+body {
   background: #011627;
   background: linear-gradient(180deg, #011627 0%, #011627 65%, white 100%);
   background-size: 100%;
@@ -61,7 +63,7 @@ body{
   align-items: center; }
 
 .section_fotos .hijo {
-  background-color: $color-fondo-fotos;
+  background-color: midnightblue;
   width: 200px;
   height: 200px;
   margin: 10px; }
@@ -71,6 +73,129 @@ body{
   height: 180px;
   margin: 10px; }
 
-.carousel_index {
-  height: 150px;
-  width: 150px; }
+.carousel {
+  margin-bottom: 100px; }
+
+.carousel img {
+  width: 130vh;
+  height: 65vh; }
+
+/* -------- Footer compartido con todos los archivos ------- */
+footer .pie-pagina {
+  width: 100%; }
+
+footer .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px; }
+
+footer .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+footer .h2 {
+  width: 250px; }
+
+footer h1 {
+  color: Aliceblue;
+  margin-bottom: 25px;
+  font-size: 20px; }
+
+footer .lorem {
+  color: Aliceblue;
+  margin-bottom: 10px; }
+
+footer .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: Aliceblue;
+  margin-right: 10px;
+  text-align: center;
+  background-color: #535554;
+  transition: all 300ms ease;
+  border-radius: 7px; }
+
+footer .red-social a:hover {
+  color: #8D3B72; }
+
+footer .pie-pagina .grupo-2 {
+  padding: 15px 10px;
+  text-align: center;
+  color: #021b31; }
+
+/* ----------CONTACTO------------*/
+main form {
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 100px;
+  border-radius: 10px; }
+
+main h2 {
+  color: Aliceblue;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+main input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: black;
+  border-style: outset; }
+
+main textarea {
+  min-height: 100px;
+  max-width: 100%;
+  max-height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  border: black;
+  border-style: outset; }
+
+/*---------------------CAPACITACIONES--------------------*/
+.main-class {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .main-class .div-dos {
+    background-color: rgba(240, 255, 255, 0.616);
+    display: flex;
+    align-items: stretch; }
+  .main-class .div-dos {
+    background-color: rgba(240, 255, 255, 0.616);
+    display: flex;
+    align-items: stretch; }
+  .main-class .section-capacitaciones {
+    display: flex; }
+  .main-class .section1 {
+    width: 180px;
+    height: 10px; }
+  .main-class .section2 {
+    width: 180px;
+    height: 10px; }
+  .main-class .section3 {
+    width: 180px;
+    height: 10px; }
+
+/*---------------------perfil--------------------*/
+/*---------------------Escuelas--------------------*/
