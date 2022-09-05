@@ -218,38 +218,19 @@ main {
     display: map-get($map: $standard , $key: display-standard );
     align-items: center;
     justify-content: center;
-    .div-dos{
-        background-color: rgba(240, 255, 255, 0.616);
-        display: map-get($map: $standard , $key: display-standard );
-        align-items:stretch ;
-    }
-    .div-dos{
-        background-color: rgba(240, 255, 255, 0.616);
-        display: map-get($map: $standard , $key: display-standard );
-        align-items:stretch ;
-    }
-    .section-capacitaciones{
-        
-        display:map-get($map: $standard , $key: display-standard );
-
-    }
-    .section1{
-        @include medidas(180px, 10px);
-        @extend %obelisco;
-    }
     
-    .section2{
-        @include medidas(180px, 10px);
-        @extend %obelisco;
-    }
-    
-    .section3{
-        
-        @include medidas(180px, 10px);
-        @extend %obelisco;
-        
-    }
 }
+/* ------ revisar ----- */
+@media (max-width: 640px){
+    .main-class{
+    width: 640px;
+}
+.card{
+    display: flex;
+align-items: center;
+align-content: flex-start;}
+    }
+
 
 /*---------------------perfil--------------------*/
 

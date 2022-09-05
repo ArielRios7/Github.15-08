@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-class{
+    
+    grid-template-areas: 
+    "filtros_capacitaciones card card card card"
+    "filtros_capacitaciones card card card card"
+    "filtros_capacitaciones2 card card card card"
+    "filtros_capacitaciones2 card card card card";
+    grid-template-columns: repeat(5, 100px);
+}
+
+.filtros_capacitaciones{
+    grid-area: filtros_capacitaciones;
+}
+.filtros_capacitaciones2{
+    grid-area: filtros_capacitaciones;
+}
+
+.card{
+    grid-area: card;
+}
+
+
+/*
+.div-dos{
+    background-color: rgba(240, 255, 255, 0.616);
+    display: map-get($map: $standard , $key: display-standard );
+    align-items:stretch ;
+}
+.div-dos{
+    background-color: rgba(240, 255, 255, 0.616);
+    display: map-get($map: $standard , $key: display-standard );
+    align-items:stretch ;
+}
+.section-capacitaciones{
+    
+    display:map-get($map: $standard , $key: display-standard );
+
+}
+.section1{
+    @include medidas(180px, 10px);
+    @extend %obelisco;
+}
+
+.section2{
+    @include medidas(180px, 10px);
+    @extend %obelisco;
+}
+
+.section3{
+    
+    @include medidas(180px, 10px);
+    @extend %obelisco;
+    
+}
+*/

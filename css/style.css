@@ -4,10 +4,6 @@
   box-sizing: border-box; }
 
 /* variables --------------------*/
-.main-class .section1, .main-class .section2, .main-class .section3 {
-  grid-area: section1;
-  margin: 10px; }
-
 /* -------------  -INDEX-   ------------------------ */
 body {
   background: #011627;
@@ -177,25 +173,15 @@ main textarea {
   display: flex;
   align-items: center;
   justify-content: center; }
-  .main-class .div-dos {
-    background-color: rgba(240, 255, 255, 0.616);
+
+/* ------ revisar ----- */
+@media (max-width: 640px) {
+  .main-class {
+    width: 640px; }
+  .card {
     display: flex;
-    align-items: stretch; }
-  .main-class .div-dos {
-    background-color: rgba(240, 255, 255, 0.616);
-    display: flex;
-    align-items: stretch; }
-  .main-class .section-capacitaciones {
-    display: flex; }
-  .main-class .section1 {
-    width: 180px;
-    height: 10px; }
-  .main-class .section2 {
-    width: 180px;
-    height: 10px; }
-  .main-class .section3 {
-    width: 180px;
-    height: 10px; }
+    align-items: center;
+    align-content: flex-start; } }
 
 /*---------------------perfil--------------------*/
 /*---------------------Escuelas--------------------*/
