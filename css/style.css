@@ -169,19 +169,16 @@ main textarea {
   border-style: outset; }
 
 /*---------------------CAPACITACIONES--------------------*/
-.main-class {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-/* ------ revisar ----- */
-@media (max-width: 640px) {
-  .main-class {
-    width: 640px; }
-  .card {
-    display: flex;
+/*
+.main-class{
+    display: map-get($map: $standard , $key: display-standard );
     align-items: center;
-    align-content: flex-start; } }
-
+    justify-content: center;
+    
+}
+*/
 /*---------------------perfil--------------------*/
 /*---------------------Escuelas--------------------*/
+.mapa1 {
+  display: flex;
+  align-items: center; }

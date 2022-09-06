@@ -213,25 +213,19 @@ main {
 
 
 /*---------------------CAPACITACIONES--------------------*/
-
+/*
 .main-class{
     display: map-get($map: $standard , $key: display-standard );
     align-items: center;
     justify-content: center;
     
 }
-/* ------ revisar ----- */
-@media (max-width: 640px){
-    .main-class{
-    width: 640px;
-}
-.card{
-    display: flex;
-align-items: center;
-align-content: flex-start;}
-    }
-
+*/
 
 /*---------------------perfil--------------------*/
 
 /*---------------------Escuelas--------------------*/
+.mapa1{
+    display: flex;
+    align-items: center;
+}

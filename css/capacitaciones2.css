@@ -5,24 +5,54 @@
 }
 
 .main-class{
-    
+    display: grid;
     grid-template-areas: 
-    "filtros_capacitaciones card card card card"
-    "filtros_capacitaciones card card card card"
-    "filtros_capacitaciones2 card card card card"
-    "filtros_capacitaciones2 card card card card";
-    grid-template-columns: repeat(5, 100px);
+    "filtros card1 card2 card3 card4"
+    "filtros card9 card10 card11 card12";
+    grid-template-columns: 14% 21.5% 21.5% 21.5% 21.5%;
+    
+
 }
+
 
 .filtros_capacitaciones{
-    grid-area: filtros_capacitaciones;
-}
-.filtros_capacitaciones2{
-    grid-area: filtros_capacitaciones;
+    grid-area: filtros;
 }
 
-.card{
-    grid-area: card;
+.card4{
+    grid-area: card1;
+    
+}
+
+.card1{
+    grid-area: card2;
+   
+}
+.card2{
+    grid-area: card3;
+    
+}
+.card3{
+    grid-area: card4;
+    
+}
+.card12{
+    margin-top: 5px;
+    grid-area: card9;
+    
+}
+.card9{
+    margin-top: 5px;
+    grid-area: card10;
+    
+}
+.card10{
+    margin-top: 5px;
+    grid-area: card11;
+}
+.card11{
+    margin-top: 5px;
+    grid-area: card12;
 }
 
 
