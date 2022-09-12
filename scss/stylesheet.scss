@@ -355,7 +355,11 @@ main {
 
 /*---------------------Escuelas--------------------*/
 
-
+.escuelas1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .mapa1{
     display: flex;
@@ -423,4 +427,18 @@ main {
         margin: 0;
     }
     
+    }
+
+    /* resonsive escuelas */
+    @media (max-width: 640px){
+    .escuelas1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .mapa1{
+        display: flex;
+        justify-content: center;
+    }
     }
