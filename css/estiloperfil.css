@@ -51,7 +51,7 @@
 }
 
 .header-card h1{
-    color: crimson;
+    color: #ee0505;
 }
 
 .header-card h2{
@@ -73,7 +73,7 @@
 .descripcion .social a{
     display: inline-block;
     pad: 0 15px;
-    color: crimson;
+    color: #ee0505;
 }
 
 @media (max-width: 640px){
@@ -92,3 +92,4 @@ width: 450px;
 }
 
 }
+

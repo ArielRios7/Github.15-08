@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.titulo_capacitaciones{
+    font-size: 60px ; 
+    color: #707070; 
+    text-align: center; 
+    margin-bottom: 60px;
+}
+
 .main-class{
     display: grid;
     grid-template-areas: 
@@ -13,6 +20,8 @@
     
 
 }
+
+
 
 
 .filtros_capacitaciones{
@@ -89,3 +98,51 @@
     
 }
 */
+
+@media (max-width:640px){
+
+    .titulo_capacitaciones{
+        font-size: 40px; 
+        color: #DB2955; 
+        text-align: center; 
+    
+    }
+
+    .main-class{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .filtros_acordion{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    
+}
+
+@media (max-width:820px){
+
+    .titulo_capacitaciones{
+        font-size: 40px; 
+        color: #DB2955; 
+        text-align: center; 
+    
+    }
+
+    .main-class{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .filtros_acordion{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    
+}

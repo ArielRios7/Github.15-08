@@ -18,6 +18,12 @@ body {
     background: $color-dos;
     background-size: 100%;
     margin: 0;
+    height: 100%;
+}
+
+nav img{
+    width: 110px;
+    height: 55px;
 }
 
 .section_index{
@@ -29,7 +35,7 @@ body {
     }
     .titulo{
         text-align: left;
-        padding: 100px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
     .titulo2{
         text-align:left;
@@ -153,7 +159,7 @@ footer {
     }
 
     .red-social a:hover{
-        color: #8D3B72;
+        color: #ee0505;
         }
 
     .pie-pagina .grupo-2{
@@ -168,7 +174,7 @@ footer {
 /* ----------CONTACTO------------*/
 
 main {
-    form {
+    form{
         width: 450px;
         margin: auto;
         background: rgba(0,0,0, 0.3);
@@ -213,14 +219,58 @@ main {
 
 
 /*---------------------CAPACITACIONES--------------------*/
-/*
+
+
 .main-class{
-    display: map-get($map: $standard , $key: display-standard );
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-areas: 
+    "filtros card1 card2 card3 card4"
+    "filtros card9 card10 card11 card12";
+    grid-template-columns: 14% 21.5% 21.5% 21.5% 21.5%;
+    
+
+}
+
+
+.filtros_capacitaciones{
+    grid-area: filtros;
+}
+
+.card4{
+    grid-area: card1;
     
 }
-*/
+
+.card1{
+    grid-area: card2;
+   
+}
+.card2{
+    grid-area: card3;
+    
+}
+.card3{
+    grid-area: card4;
+    
+}
+.card12{
+    margin-top: 5px;
+    grid-area: card9;
+    
+}
+.card9{
+    margin-top: 5px;
+    grid-area: card10;
+    
+}
+.card10{
+    margin-top: 5px;
+    grid-area: card11;
+}
+.card11{
+    margin-top: 5px;
+    grid-area: card12;
+}
 
 /*---------------------perfil--------------------*/
 
@@ -228,4 +278,22 @@ main {
 .mapa1{
     display: flex;
     align-items: center;
+}
+
+
+/*   footer responsive */
+
+@media (max-width:640px){
+
+    .pie-pagina .grupo-1{
+        width: 50%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+    .form form{
+        width: 100%;
+    }
+
 }
