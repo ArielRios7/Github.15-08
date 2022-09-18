@@ -323,54 +323,52 @@ body .mapa1 {
 /* -------responsive index ------*/
 @media (max-width: 768px) {
   .body_index {
-    width: 85%; }
-    .body_index .section_index {
+    width: 100%; }
+    .body_index main .section_index {
       display: flex;
       justify-content: flex-start; }
-      .body_index .section_index .PrimerBloque {
+      .body_index main .section_index .PrimerBloque {
         padding-left: 100px;
         display: flex;
         flex-direction: column;
         align-items: flex-start; }
-      .body_index .section_index .PrimerBloque .titulo_principal {
+      .body_index main .section_index .PrimerBloque .titulo_principal {
         padding-top: 20px;
         font-size: 20px;
         color: #0b0350;
         font-weight: bold; }
-      .body_index .section_index .titulo3 {
+      .body_index main .section_index .titulo3 {
         text-align: left;
         color: #FFFFFF;
         padding: 15px 0px 0px 0px;
         font-size: 16px; }
-      .body_index .section_index .texto1 {
+      .body_index main .section_index .texto1 {
         text-align: left;
         color: #FFFFFF;
         padding: 40px;
         font-size: 12px; }
-    .body_index .section_video .SegundoBloque {
+    .body_index main .section_video .SegundoBloque {
       height: 150px;
       display: flex;
       /* propiedad para justificar elementos */
-      justify-content: center;
-      align-items: center;
-      margin-top: 100px; }
-    .body_index .section_video .video1 {
-      width: 80%;
-      height: 40%; }
-    .body_index .section_fotos .TercerBloque {
+      margin-top: 50px; }
+    .body_index main .section_video .video1 {
+      width: 100%;
+      height: 60%; }
+    .body_index main .section_fotos .TercerBloque {
       height: 600px;
       display: flex;
       flex-direction: column;
       margin-bottom: 100px;
       margin-top: 50px; }
-    .body_index .section_fotos .hijo {
+    .body_index main .section_fotos .hijo {
       background-color: midnightblue;
       width: 200px;
       height: 200px;
       margin: 10px; }
-    .body_index .section_fotos .imgcuadro {
+    .body_index main .section_fotos .imgcuadro {
       width: 180px;
       height: 180px;
       margin: 10px; }
-    .body_index .carousel {
+    .body_index main .carousel {
       display: none; } }
