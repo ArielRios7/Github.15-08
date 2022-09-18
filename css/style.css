@@ -321,7 +321,7 @@ body .mapa1 {
     align-items: flex-start; } }
 
 /* -------responsive index ------*/
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   .body_index {
     width: 100%; }
     .body_index main .section_index {
